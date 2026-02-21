@@ -5,7 +5,7 @@
 ### 1. Запустите бэкенд (Python Flask)
 
 ```bash
-cd gui_app
+cd ifraimova/gui_app
 source venv/bin/activate  # На Windows: venv\Scripts\activate
 cd backend
 python server.py
@@ -18,7 +18,7 @@ python server.py
 В новом терминале:
 
 ```bash
-cd gui_app/react-frontend
+cd ifraimova/gui_app/react-frontend
 npm install  # Только первый раз
 npm start
 ```
@@ -30,7 +30,7 @@ npm start
 ### Бэкенд:
 
 ```bash
-cd gui_app
+cd ifraimova/gui_app
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ### Фронтенд:
 
 ```bash
-cd gui_app/react-frontend
+cd ifraimova/gui_app/react-frontend
 npm install
 ```
 

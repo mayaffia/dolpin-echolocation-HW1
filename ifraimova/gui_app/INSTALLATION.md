@@ -13,7 +13,7 @@
 #### On macOS/Linux:
 
 ```bash
-cd gui_app
+cd ifraimova/gui_app
 chmod +x run.sh
 ./run.sh
 ```
@@ -21,7 +21,7 @@ chmod +x run.sh
 #### On Windows:
 
 ```cmd
-cd gui_app
+cd ifraimova/gui_app
 run.bat
 ```
 
@@ -30,7 +30,7 @@ run.bat
 1. **Create a virtual environment** (recommended):
 
 ```bash
-cd gui_app
+cd ifraimova/gui_app
 python3 -m venv venv
 ```
 
@@ -79,15 +79,15 @@ socketio.run(app, debug=True, host='0.0.0.0', port=5001)  # Change port here
 
 ### Module not found: dolphin
 
-The server automatically adds the `ifraimova` directory to the Python path. Ensure the directory structure is:
+The server automatically adds the parent directory to the Python path. Ensure the directory structure is:
 
 ```
 HW1/
-├── ifraimova/
-│   └── dolphin.py
-└── gui_app/
-    └── backend/
-        └── server.py
+└── ifraimova/
+    ├── dolphin.py
+    └── gui_app/
+        └── backend/
+            └── server.py
 ```
 
 ### Virtual environment issues

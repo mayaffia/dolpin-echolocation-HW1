@@ -1,0 +1,12 @@
+PLACEHOLDER: Please record your 7-minute video demonstration and add the YouTube/RuTube link here.
+
+The video should demonstrate:
+1. Code structure explanation
+2. GUI interface overview
+3. How to configure and run the application
+4. Usage scenarios of the GUI application
+5. Step-by-step mode demonstration
+6. How the algorithm works with visualization
+7. Proof that all evaluation criteria are met
+
+After recording, replace this text with your video link.

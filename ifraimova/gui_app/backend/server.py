@@ -10,7 +10,7 @@ import sys
 import os
 
 # Add parent directory to path to import dolphin module
-sys.path.append(os.path.join(os.path.dirname(__file__), '../../ifraimova'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 
 try:
     from dolphin import DolphinEcholocation, sphere_function, rastrigin_function, rosenbrock_function
