@@ -131,12 +131,6 @@ class SteppableDolphinEcholocation(DolphinEcholocation):
         }
 
 
-@app.route('/api/health', methods=['GET'])
-def health_check():
-    """Health check endpoint"""
-    return jsonify({'status': 'ok', 'message': 'Server is running'})
-
-
 @app.route('/api/functions', methods=['GET'])
 def get_functions():
     """Get list of available test functions"""

@@ -1,6 +1,7 @@
 import Plot from "react-plotly.js";
 
 const VisualizationPanel = ({ plotData }) => {
+  console.log(plotData);
   return (
     <div className="plot-container">
       {plotData ? (
