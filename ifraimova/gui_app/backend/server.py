@@ -1,8 +1,3 @@
-"""
-Flask backend server for Dolphin Echolocation GUI Application
-Simplified version without SocketIO for better compatibility
-"""
-
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import numpy as np
