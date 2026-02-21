@@ -1,0 +1,64 @@
+{
+  "test_configurations": [
+    {
+      "test_name": "Sphere Function Optimization",
+      "function": "sphere",
+      "description": "Unimodal smooth function, easy to optimize",
+      "parameters": {
+        "dimension": 10,
+        "bounds": {
+          "min": -100,
+          "max": 100
+        },
+        "population_size": 30,
+        "max_iterations": 100,
+        "alpha": 0.9,
+        "beta": 0.1
+      },
+      "expected_optimum": {
+        "position": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "fitness": 0.0
+      }
+    },
+    {
+      "test_name": "Rastrigin Function Optimization",
+      "function": "rastrigin",
+      "description": "Highly multimodal function with many local minima",
+      "parameters": {
+        "dimension": 10,
+        "bounds": {
+          "min": -5.12,
+          "max": 5.12
+        },
+        "population_size": 30,
+        "max_iterations": 100,
+        "alpha": 0.9,
+        "beta": 0.1
+      },
+      "expected_optimum": {
+        "position": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "fitness": 0.0
+      }
+    },
+    {
+      "test_name": "Rosenbrock Function Optimization",
+      "function": "rosenbrock",
+      "description": "Narrow valley function, difficult to optimize",
+      "parameters": {
+        "dimension": 10,
+        "bounds": {
+          "min": -5,
+          "max": 10
+        },
+        "population_size": 30,
+        "max_iterations": 100,
+        "alpha": 0.9,
+        "beta": 0.1
+      },
+      "expected_optimum": {
+        "position": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        "fitness": 0.0
+      }
+    }
+  ]
+}

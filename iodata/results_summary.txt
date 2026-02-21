@@ -1,0 +1,46 @@
+================================================================================
+DOLPHIN ECHOLOCATION ALGORITHM - SUMMARY OF ALL TESTS
+================================================================================
+
+Execution Date: 2025-12-19 23:35:10
+Total Tests Run: 3
+
+--------------------------------------------------------------------------------
+PERFORMANCE COMPARISON
+--------------------------------------------------------------------------------
+
+Function        Best Fitness         Time (s)     Evaluations 
+--------------------------------------------------------------------------------
+Sphere          6.567362e-07         0.2554       3030        
+Rastrigin       2.188906e+01         0.2521       3030        
+Rosenbrock      9.242036e+01         0.2610       3030        
+
+================================================================================
+DETAILED RESULTS
+================================================================================
+
+
+Sphere Function:
+  Best Fitness: 6.5673617689e-07
+  Execution Time: 0.2554 seconds
+  Function Evaluations: 3030
+  Final Convergence: 6.5673617689e-07
+  Improvement: 2.362003e+04 → 6.567362e-07
+
+Rastrigin Function:
+  Best Fitness: 2.1889058974e+01
+  Execution Time: 0.2521 seconds
+  Function Evaluations: 3030
+  Final Convergence: 2.1889058974e+01
+  Improvement: 1.182579e+02 → 2.188906e+01
+
+Rosenbrock Function:
+  Best Fitness: 9.2420357216e+01
+  Execution Time: 0.2610 seconds
+  Function Evaluations: 3030
+  Final Convergence: 9.2420357216e+01
+  Improvement: 2.205007e+05 → 9.242036e+01
+
+================================================================================
+END OF SUMMARY
+================================================================================
